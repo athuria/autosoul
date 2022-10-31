@@ -5,7 +5,7 @@ function CheckSoul()
     end
     end
 
-_G.AutoSoul = false --true/false
+_G.AutoSoul = true --true/false
     spawn(function()
         game:GetService("RunService").RenderStepped:Connect(function()
          pcall(function()
